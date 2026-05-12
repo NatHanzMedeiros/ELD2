@@ -1,0 +1,49 @@
+library ieee;
+use library ieee.std_logic_1164.all;
+
+entity bcdcase is
+	port
+	(
+		-- Input ports
+		En	: in  std_logic_vector (3 downto 0);
+		-- Output ports
+		Ou : out std_logic_vector (6 downto 0);
+		
+	);
+	
+end entity;
+
+
+architecture ifsc_v1 of bcdcase is
+begin
+
+	process(En);
+	begin
+	case En is
+	
+	when "0000"
+		Ou <= "1111110";
+	when "0001"
+		Ou <= "0110000";
+	when "0010"
+		Ou <= "1101101";
+	when "0011"
+		Ou <= "1111001";
+	when "0100"
+		Ou <= "0110011";
+	when "0101"
+		Ou <= "1011011";
+	when "0110"
+		Ou <= "1011111";
+	when "0111"
+		Ou <= "1110000";
+	when "1000"
+		Ou <= "1111111";
+	when "1001"
+		Ou <= "1111011";
+	when others
+		Ou <= "0000001"
+	
+end process;
+
+end architecture;
