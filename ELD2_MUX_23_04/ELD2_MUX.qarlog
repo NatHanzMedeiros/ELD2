@@ -1,0 +1,15 @@
+Quartus Prime Archive log --	/home/nathan.mc05/Documentos/ELD2_MUX_restored/ELD2_MUX.qarlog
+
+Archive:	/home/nathan.mc05/Documentos/ELD2_MUX_restored/ELD2_MUX.qar
+Date:		Fri May  1 13:50:46 2026
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/nathan.mc05/Documentos/ELD2_MUX_restored/ELD2_MUX.qpf
+/home/nathan.mc05/Documentos/ELD2_MUX_restored/ELD2_MUX.qsf
+/home/nathan.mc05/Documentos/ELD2_MUX_restored/ELD2_MUX.vhd
+/home/nathan.mc05/Documentos/ELD2_MUX_restored/assignment_defaults.qdf
+	======= Total: 4 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
