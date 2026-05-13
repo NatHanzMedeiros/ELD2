@@ -1,0 +1,20 @@
+vlib work
+vcom -93 for_xor_gerador.vhd
+
+vsim work.for_xor_gerador(ifsc_v1)
+
+add wave -divider "Entradas"
+add wave /for_xor_gerador/A
+add wave -divider "FioCarregador"
+add wave /for_xor_gerador/ P
+add wave -divider "Saidas"
+add wave /bcdcase/B
+
+force A "00000111"
+run 100ns
+
+
+force A "00001111"
+run 100ns
+
+wave zoom full
