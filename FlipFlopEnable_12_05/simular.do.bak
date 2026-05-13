@@ -1,0 +1,11 @@
+quit -sim
+cls
+
+vlib work
+vcom -93 FlipFlopEnable.vhd
+vsim work.FlipFlopEnable(ifsc_v1)
+
+add wave -divider "Entradas"
+
+
+add wave -divider "Saidas"
