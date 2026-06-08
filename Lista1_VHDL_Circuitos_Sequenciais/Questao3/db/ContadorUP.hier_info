@@ -1,0 +1,43 @@
+|ContadorUP
+clk => r_reg[0].CLK
+clk => r_reg[1].CLK
+clk => r_reg[2].CLK
+clk => r_reg[3].CLK
+clk => r_reg[4].CLK
+clk => r_reg[5].CLK
+clk => r_reg[6].CLK
+clk => r_reg[7].CLK
+reset => r_reg[0].ACLR
+reset => r_reg[1].ACLR
+reset => r_reg[2].ACLR
+reset => r_reg[3].ACLR
+reset => r_reg[4].ACLR
+reset => r_reg[5].ACLR
+reset => r_reg[6].ACLR
+reset => r_reg[7].ACLR
+up => Selector0.IN4
+up => Selector1.IN4
+up => Selector2.IN4
+up => Selector3.IN4
+up => Selector4.IN4
+up => Selector5.IN4
+up => Selector6.IN4
+up => Selector7.IN4
+up => Selector0.IN2
+up => Selector1.IN2
+up => Selector2.IN2
+up => Selector3.IN2
+up => Selector4.IN2
+up => Selector5.IN2
+up => Selector6.IN2
+up => Selector7.IN2
+saida[0] <= r_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= r_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= r_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= r_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+saida[4] <= r_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+saida[5] <= r_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+saida[6] <= r_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+saida[7] <= r_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

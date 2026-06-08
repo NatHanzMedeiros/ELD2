@@ -1,0 +1,249 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/aluno/Documentos/timer_restored/simulation/modelsim
+Ebcd2ssd
+Z1 w1613906118
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8/home/aluno/Documentos/timer_restored/bcd2ssd.vhd
+Z5 F/home/aluno/Documentos/timer_restored/bcd2ssd.vhd
+l0
+L4 1
+V5GWThJ2ijE`QC;e3olWnd0
+!s100 f6e0n9AS<^:[d8E^``WLW0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1780399504
+!i10b 1
+Z8 !s108 1780399504.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/aluno/Documentos/timer_restored/bcd2ssd.vhd|
+Z10 !s107 /home/aluno/Documentos/timer_restored/bcd2ssd.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+DEx4 work 7 bcd2ssd 0 22 5GWThJ2ijE`QC;e3olWnd0
+!i122 2
+l13
+L12 16
+V5O<2nG13SGTA57RmWI5J21
+!s100 <9OO`A]h1J:PI`^UBF4TE2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebin2bcd
+Z13 w1613918754
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 3
+R0
+Z16 8/home/aluno/Documentos/timer_restored/bin2bcd.vhd
+Z17 F/home/aluno/Documentos/timer_restored/bin2bcd.vhd
+l0
+L7 1
+V1cM=eI2HCb0F3PTOoCz`Z3
+!s100 >kXk<ZUi7VU1110gkK@:<2
+R6
+31
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/aluno/Documentos/timer_restored/bin2bcd.vhd|
+Z19 !s107 /home/aluno/Documentos/timer_restored/bin2bcd.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R14
+R15
+R2
+R3
+DEx4 work 7 bin2bcd 0 22 1cM=eI2HCb0F3PTOoCz`Z3
+!i122 3
+l26
+L16 77
+V;A17?jzP@I?K=Z3o>iZ_c2
+!s100 TmNB]>J911Hi5?EJz77XU2
+R6
+31
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R11
+R12
+Epll_timer
+Z20 w1780398238
+R2
+R3
+!i122 5
+R0
+Z21 8/home/aluno/Documentos/timer_restored/pll_timer.vhd
+Z22 F/home/aluno/Documentos/timer_restored/pll_timer.vhd
+l0
+L43 1
+VNadL[jFJFgNQXL@FXFWTJ2
+!s100 C26IZ<1cZdA6J^F?l6[1C2
+R6
+31
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/aluno/Documentos/timer_restored/pll_timer.vhd|
+!s107 /home/aluno/Documentos/timer_restored/pll_timer.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 9 pll_timer 0 22 NadL[jFJFgNQXL@FXFWTJ2
+!i122 5
+l126
+L52 147
+VCK4@?3fL_icfcEh2G=43:0
+!s100 HMbUOh][F=]:^Z1A32f_03
+R6
+31
+R7
+!i10b 1
+R8
+R23
+Z24 !s107 /home/aluno/Documentos/timer_restored/pll_timer.vhd|
+!i113 1
+R11
+R12
+vpll_timer_altpll
+!s110 1780399503
+!i10b 1
+!s100 @APQFTIh3E<=zO:RcZTCW3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IDda;`_kX=o5W_NYmId`z:2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1780398958
+8/home/aluno/Documentos/timer_restored/db/pll_timer_altpll.v
+F/home/aluno/Documentos/timer_restored/db/pll_timer_altpll.v
+!i122 0
+L0 30 63
+OV;L;2020.1;71
+r1
+!s85 0
+31
+Z25 !s108 1780399503.000000
+!s107 /home/aluno/Documentos/timer_restored/db/pll_timer_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/aluno/Documentos/timer_restored/db|/home/aluno/Documentos/timer_restored/db/pll_timer_altpll.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/aluno/Documentos/timer_restored/db
+tCvgOpt 0
+Etimer
+Z26 w1780399276
+Z27 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 1
+R0
+Z28 8/home/aluno/Documentos/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd
+Z29 F/home/aluno/Documentos/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd
+l0
+L7 1
+VDe`@VfMd6;W7NaB;I3:DE0
+!s100 ]1;J4Ih0ZmcE?ODS_jP@J3
+R6
+31
+R7
+!i10b 1
+R25
+Z30 !s90 -reportprogress|300|-93|-work|work|/home/aluno/Documentos/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd|
+Z31 !s107 /home/aluno/Documentos/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd|
+!i113 1
+R11
+R12
+Asingle_clock_arch
+R27
+R2
+R3
+DEx4 work 5 timer 0 22 De`@VfMd6;W7NaB;I3:DE0
+!i122 1
+l21
+L15 51
+Vd>CVacG3=<NDP8<M;FzZz1
+!s100 U]5JDQ0D7G;mHQbCm0?N23
+R6
+31
+R7
+!i10b 1
+R25
+R30
+R31
+!i113 1
+R11
+R12
+Etop_timer_de2_115
+Z32 w1780398950
+R27
+R2
+R3
+!i122 4
+R0
+Z33 8/home/aluno/Documentos/timer_restored/top_timer_de2_115.vhd
+Z34 F/home/aluno/Documentos/timer_restored/top_timer_de2_115.vhd
+l0
+L5 1
+VVN5eLGahW0jDFmSkn03]O2
+!s100 j_[RaRz[EMV4gg?`R`CBb1
+R6
+31
+R7
+!i10b 1
+R8
+Z35 !s90 -reportprogress|300|-93|-work|work|/home/aluno/Documentos/timer_restored/top_timer_de2_115.vhd|
+Z36 !s107 /home/aluno/Documentos/timer_restored/top_timer_de2_115.vhd|
+!i113 1
+R11
+R12
+Atop
+R27
+R2
+R3
+DEx4 work 17 top_timer_de2_115 0 22 VN5eLGahW0jDFmSkn03]O2
+!i122 4
+l61
+L19 119
+V?flACllEoTBI<T=N8RCT[3
+!s100 =CXGBhz_E1=0eEf@3fGj?0
+R6
+31
+R7
+!i10b 1
+R8
+R35
+R36
+!i113 1
+R11
+R12

@@ -1,0 +1,18 @@
+
+State Machine - |top_timer_de2_115|bin2bcd:bin2bcd2|state
+Name state.done state.shift state.start 
+state.start 0 0 0 
+state.shift 0 1 1 
+state.done 1 0 1 
+
+State Machine - |top_timer_de2_115|bin2bcd:bin2bcd1|state
+Name state.done state.shift state.start 
+state.start 0 0 0 
+state.shift 0 1 1 
+state.done 1 0 1 
+
+State Machine - |top_timer_de2_115|bin2bcd:bin2bcd0|state
+Name state.done state.shift state.start 
+state.start 0 0 0 
+state.shift 0 1 1 
+state.done 1 0 1 

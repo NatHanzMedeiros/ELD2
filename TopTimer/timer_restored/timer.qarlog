@@ -1,0 +1,26 @@
+Quartus Prime Archive log --	/home/aluno/Documentos/timer_restored/timer.qarlog
+
+Archive:	/home/aluno/Documentos/timer_restored/timer.qar
+Date:		Tue Jun  2 08:56:15 2026
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/aluno/Documentos/timer_restored/SDC.sdc
+/home/aluno/Documentos/timer_restored/assignment_defaults.qdf
+/home/aluno/Documentos/timer_restored/bcd2ssd.vhd
+/home/aluno/Documentos/timer_restored/bin2bcd.vhd
+/home/aluno/Documentos/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd
+/home/aluno/Documentos/timer_restored/pll_timer.cmp
+/home/aluno/Documentos/timer_restored/pll_timer.ppf
+/home/aluno/Documentos/timer_restored/pll_timer.qip
+/home/aluno/Documentos/timer_restored/pll_timer.vhd
+/home/aluno/Documentos/timer_restored/simular.do
+/home/aluno/Documentos/timer_restored/timer.qpf
+/home/aluno/Documentos/timer_restored/timer.qsf
+/home/aluno/Documentos/timer_restored/timer_qsim.qsf
+/home/aluno/Documentos/timer_restored/timer_qsim_assignment_defaults.qdf
+/home/aluno/Documentos/timer_restored/top_timer_de2_115.vhd
+	======= Total: 15 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/nathan.mc05/Documentos/COMPARADOR_27_04/simulation/modelsim
+Ccfg_ifsc
+esequencial
+acorrecao
+DAx4 work 10 sequencial 8 correcao 22 7oYLC=D`_EFcZE5UHVS@93
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 DEx4 work 10 sequencial 0 22 ^NS:VE:k01`Vg[e=9WF1_1
+!i122 0
+Z5 w1777512859
+R0
+Z6 8/home/nathan.mc05/Documentos/COMPARADOR_27_04/sequencial.vhd
+Z7 F/home/nathan.mc05/Documentos/COMPARADOR_27_04/sequencial.vhd
+l0
+L57 1
+V[_fZA?A::=ez]4I5UD3JM1
+!s100 aZ36:YkkTK`8e=mTI:[ZV1
+Z8 OV;C;2020.1;71
+31
+Z9 !s110 1777513424
+!i10b 0
+Z10 !s108 1777513424.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/nathan.mc05/Documentos/COMPARADOR_27_04/sequencial.vhd|
+!s107 /home/nathan.mc05/Documentos/COMPARADOR_27_04/sequencial.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Esequencial
+R5
+R1
+R2
+R3
+!i122 0
+R0
+R6
+R7
+l0
+L5 1
+V^NS:VE:k01`Vg[e=9WF1_1
+!s100 SXCa=D]CV>QC[Yckk?AFU3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+Z14 !s107 /home/nathan.mc05/Documentos/COMPARADOR_27_04/sequencial.vhd|
+!i113 1
+R12
+R13
+Acorrecao
+R1
+R2
+R3
+R4
+!i122 0
+l36
+L35 20
+V7oYLC=D`_EFcZE5UHVS@93
+!s100 NaG[]YTe^a<?<M<mR4e0c2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13
+Aexemplo
+R1
+R2
+R3
+R4
+!i122 0
+l20
+L19 15
+V7OWXWiEmD21UGUka1^h<43
+!s100 PgQLjcJ;0MF1?@;heJ;`H0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 1
+R12
+R13

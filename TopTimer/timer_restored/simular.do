@@ -1,0 +1,62 @@
+quit -sim
+
+vlib work
+vmap work work
+
+vcom -93 -work work list_09_05_06_timer_CORRIGIDO_50mhz.vhd
+vsim work.timer(single_clock_arch)
+
+
+add wave -divider "Controle"
+add wave sim:/timer/reset
+add wave sim:/timer/clk
+
+add wave -divider "Sinais de Tempo (Binario)"
+add wave -radix unsigned sim:/timer/r_reg
+add wave -radix unsigned sim:/timer/s_reg
+add wave -radix unsigned sim:/timer/m_reg
+add wave -radix unsigned sim:/timer/h_reg
+
+add wave -divider "saidas"
+add wave -radix unsigned sim:/timer/sec
+add wave -radix unsigned sim:/timer/min
+add wave -radix unsigned sim:/timer/hora
+
+force sim:/timer/clk 0 0ns, 1 10ns -repeat 20ns
+
+force -deposit sim:/timer/reset 1 0
+run 20ns
+force -deposit sim:/timer/reset 0 0
+run 10ns
+
+
+##TESTE DE VIRADA DE CLOCK PARA SEGUNDO
+force -deposit sim:/timer/r_reg 10#1998 0
+force -deposit sim:/timer/s_reg 10#00 0
+force -deposit sim:/timer/m_reg 10#00 0
+force -deposit sim:/timer/h_reg 10#00 0
+run 200ns
+
+##TESTE DE VIRADA DE SEGUNDO PARA MINUTO
+force -deposit sim:/timer/r_reg 10#1998 0
+force -deposit sim:/timer/s_reg 10#59 0
+force -deposit sim:/timer/m_reg 10#00 0
+force -deposit sim:/timer/h_reg 10#00 0
+run 200ns
+
+##TESTE PARA VIRADA DE MINUTO PARA HORA
+force -deposit sim:/timer/r_reg 10#1998 0
+force -deposit sim:/timer/s_reg 10#59 0
+force -deposit sim:/timer/m_reg 10#59 0
+force -deposit sim:/timer/h_reg 10#00 0
+run 200ns
+
+##TESTE DE VIRADA DE DIA 00:00:00
+force -deposit sim:/timer/r_reg 10#1998 0
+force -deposit sim:/timer/s_reg 10#59 0
+force -deposit sim:/timer/m_reg 10#59 0
+force -deposit sim:/timer/h_reg 10#23 0
+run 200ns
+
+
+wave zoom full

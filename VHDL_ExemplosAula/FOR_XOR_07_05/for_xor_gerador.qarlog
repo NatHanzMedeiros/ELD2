@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	/home/nathan.mc05/Documentos/FOR_XOR/for_xor_gerador.qarlog
+
+Archive:	/home/nathan.mc05/Documentos/FOR_XOR/for_xor_gerador.qar
+Date:		Thu May  7 00:19:13 2026
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/nathan.mc05/Documentos/FOR_XOR/for_xor_gerador.qpf
+/home/nathan.mc05/Documentos/FOR_XOR/for_xor_gerador.qsf
+/home/nathan.mc05/Documentos/FOR_XOR/for_xor_gerador.vhd
+/home/nathan.mc05/Documentos/FOR_XOR/simular.do
+/opt/altera/intelFPGA/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

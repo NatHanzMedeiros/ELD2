@@ -1,0 +1,262 @@
+# do timer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying /opt/altera/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/aluno/Documentos/timer_restored/db {/home/aluno/Documentos/timer_restored/db/pll_timer_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:03 on Jun 02,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/aluno/Documentos/timer_restored/db" /home/aluno/Documentos/timer_restored/db/pll_timer_altpll.v 
+# -- Compiling module pll_timer_altpll
+# 
+# Top level modules:
+# 	pll_timer_altpll
+# End time: 08:25:03 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/aluno/Documentos/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:03 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work /home/aluno/Documentos/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture single_clock_arch of timer
+# End time: 08:25:04 on Jun 02,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/aluno/Documentos/timer_restored/bcd2ssd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:04 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work /home/aluno/Documentos/timer_restored/bcd2ssd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bcd2ssd
+# -- Compiling architecture arch of bcd2ssd
+# End time: 08:25:04 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/aluno/Documentos/timer_restored/bin2bcd.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:04 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work /home/aluno/Documentos/timer_restored/bin2bcd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity bin2bcd
+# -- Compiling architecture behaviour of bin2bcd
+# End time: 08:25:04 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/aluno/Documentos/timer_restored/top_timer_de2_115.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:04 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work /home/aluno/Documentos/timer_restored/top_timer_de2_115.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_timer_de2_115
+# -- Compiling architecture top of top_timer_de2_115
+# End time: 08:25:04 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/aluno/Documentos/timer_restored/pll_timer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:04 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work /home/aluno/Documentos/timer_restored/pll_timer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pll_timer
+# -- Compiling architecture SYN of pll_timer
+# End time: 08:25:04 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+CD ..
+# invalid command name "CD"
+cd ..
+cd ..
+do simular.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying /opt/altera/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:25:22 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture single_clock_arch of timer
+# End time: 08:25:22 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.timer(single_clock_arch) 
+# Start time: 08:25:22 on Jun 02,2026
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 6.1.0-48-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(single_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# 0 ps
+# 656250 ps
+do simular.do
+# End time: 08:26:31 on Jun 02,2026, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 7
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying /opt/altera/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:26:31 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture single_clock_arch of timer
+# End time: 08:26:32 on Jun 02,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.timer(single_clock_arch) 
+# Start time: 08:26:32 on Jun 02,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(single_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# 0 ps
+# 656250 ps
+do simular.do
+# End time: 08:29:45 on Jun 02,2026, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 7
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying /opt/altera/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:29:45 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture single_clock_arch of timer
+# End time: 08:29:45 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.timer(single_clock_arch) 
+# Start time: 08:29:45 on Jun 02,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(single_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# 0 ps
+# 866250 ps
+do simular.do
+# End time: 08:30:14 on Jun 02,2026, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 7
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying /opt/altera/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:30:14 on Jun 02,2026
+# vcom -reportprogress 300 -93 -work work list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture single_clock_arch of timer
+# End time: 08:30:14 on Jun 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.timer(single_clock_arch) 
+# Start time: 08:30:14 on Jun 02,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(single_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# 0 ps
+# 871500 ps
+# End time: 08:57:48 on Jun 02,2026, Elapsed time: 0:27:34
+# Errors: 0, Warnings: 7
